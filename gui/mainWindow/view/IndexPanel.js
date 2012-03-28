@@ -9,12 +9,9 @@
 Ext.define('GUI.view.IndexPanel', {
     extend: 'Ext.panel.Panel',
 
-    height: 850,
     title: 'Calgary Emergency Medicine',
 
-    layout: {
-        type: 'border'
-    },
+    layout:'border',
 
     initComponent: function() {
         var me = this;

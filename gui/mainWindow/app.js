@@ -21,11 +21,31 @@ Ext.application({
     ],
 
     launch: function() {
-        Ext.QuickTips.init();
-
-        var cmp1 = Ext.create('GUI.view.IndexPanel', {
-            renderTo: Ext.getBody()
+        Ext.create('Ext.container.Viewport', {
+		
+			layout: {
+				type: 'border',
+				padding: 5
+			},
+			defaults: {
+				split: true
+			},
+            items: [
+				 {
+					region: 'north',
+					title: 'Calgary Emergency Medicine'
+				},
+                {
+                    xtype: 'mainpanel',
+                    region: 'center',
+					border: false
+                },
+                {
+                    xtype: 'impanel',
+                    region: 'east',
+                    collapsible: true
+                }
+            ]
         });
-        cmp1.show();
     }
 });

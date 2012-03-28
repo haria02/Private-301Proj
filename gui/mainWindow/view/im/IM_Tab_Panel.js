@@ -2,7 +2,6 @@ Ext.define('GUI.view.im.IM_Tab_Panel', {
     extend: 'Ext.tab.Panel',
     alias: 'widget.impanel',
 
-    height: 800,
     width: 280,
 
     activeTab: 0,
@@ -20,13 +19,13 @@ Ext.define('GUI.view.im.IM_Tab_Panel', {
                     dockedItems: [
                         {
                             xtype: 'form',
-                            height: 728,
+                            height: '90%',
                             bodyPadding: 10,
                             title: 'Recent messages'
                         },
                         {
                             xtype: 'textareafield',
-                            height: 10,
+                            height: '10%',
                             width: 241,
                             fieldLabel: '',
                             labelWidth: 0,
