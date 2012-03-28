@@ -1,1 +1,4 @@
 databaseTest contains modules for database
+	--database.js
+gui contains modules for GUI
+	--mainWindow
