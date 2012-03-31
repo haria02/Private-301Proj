@@ -2,3 +2,5 @@ databaseTest contains modules for database
 	--database.js
 gui contains modules for GUI
 	--mainWindow
+Login contains modules for Login
+	-- use command: "node app.js" to test the code.
