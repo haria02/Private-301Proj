@@ -5,6 +5,7 @@ Author		 -- Akio Hoshikawa
 Date		 -- Mar 23, 2012
 
 Mar 25, 2012 -- Added callback function for Database().
+Mar 29, 2012 -- Added findOne function.
 ----------------------------------------------------------------------- */
 var Db = require('mongodb').Db;
 var Connection = require('mongodb').Connection;
